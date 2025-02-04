@@ -2,6 +2,6 @@
 </script>
 <template>
   <main>
-    <TheWelcome />
+    <h1>Jewelry Store!</h1>
   </main>
 </template>
