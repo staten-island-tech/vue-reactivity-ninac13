@@ -180,3 +180,5 @@ const jewelryArray = [
       img:"img/charmbracelet.jpg"
     }
   ];
+
+  export default jewelryArray;
