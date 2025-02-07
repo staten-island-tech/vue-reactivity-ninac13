@@ -5,7 +5,6 @@ const jewelryArray = [
       price: 350,
       category: "Necklace",
       brand: "Luxora",
-      availability: "In Stock",
       img: "img/goldnecklaceset.jpg"
     },
     {
@@ -14,7 +13,6 @@ const jewelryArray = [
       price: 1200,
       category: "Ring",
       brand: "Sparkle",
-      availability: "Out of Stock",
       img: "img/diamonring.jpg"
     },
     {
@@ -23,7 +21,6 @@ const jewelryArray = [
       price: 85,
       category: "Bracelet",
       brand: "ShinySilver",
-      availability: "In Stock",
       img: "img/silverbracelet.jpg"
     },
     {
@@ -32,7 +29,6 @@ const jewelryArray = [
       price: 500,
       category: "Earrings",
       brand: "Elegance",
-      availability: "In Stock",
       img: "img/pearlearrings.jpg"
     },
     {
@@ -41,7 +37,6 @@ const jewelryArray = [
       price: 700,
       category: "Pendant",
       brand: "GemGlow",
-      availability: "In Stock",
       img: "img/rubypendant.jpg"
     },
     {
@@ -50,7 +45,6 @@ const jewelryArray = [
       price: 850,
       category: "Brooch",
       brand: "RoyalGems",
-      availability: "Out of Stock",
       img:"img/sapphirebrooch.jpg"
     },
     {
@@ -59,7 +53,6 @@ const jewelryArray = [
       price: 250,
       category: "Watch",
       brand: "TimeMaster",
-      availability: "In Stock",
       img:"img/watch.jpg"
     },
     {
@@ -68,7 +61,6 @@ const jewelryArray = [
       price: 400,
       category: "Bracelet",
       brand: "RoseTide",
-      availability: "In Stock",
       img:"img/bangle.jpg"
     },
     {
@@ -77,7 +69,6 @@ const jewelryArray = [
       price: 1500,
       category: "Ring",
       brand: "LuxGem",
-      availability: "In Stock",
       img:"img/emeraldring.jpg"
     },
     {
@@ -86,7 +77,6 @@ const jewelryArray = [
       price: 600,
       category: "Watch",
       brand: "Elegance",
-      availability: "In Stock",
       img:"img/platinumwatch.jpg"
     },
     {
@@ -95,7 +85,6 @@ const jewelryArray = [
       price: 600,
       category: "Earrings",
       brand: "Brilliant",
-      availability: "In Stock",
       img:"img/diamondearrings.jpg"
     },
     {
@@ -104,7 +93,6 @@ const jewelryArray = [
       price: 300,
       category: "Pendant",
       brand: "OpalCraft",
-      availability: "Out of Stock",
       img:"img/pendant.jpg"
     },
     {
@@ -113,7 +101,6 @@ const jewelryArray = [
       price: 40,
       category: "Bracelet",
       brand: "UrbanStyle",
-      availability: "In Stock",
       img:"img/leather.jpg"
     },
     {
@@ -122,7 +109,6 @@ const jewelryArray = [
       price: 450,
       category: "Necklace",
       brand: "OceanGlow",
-      availability: "In Stock",
       img:"img/necklace.jpg"
     },
     {
@@ -131,7 +117,6 @@ const jewelryArray = [
       price: 350,
       category: "Brooch",
       brand: "ClassicGems",
-      availability: "In Stock",
       img:"img/goldbrooch.jpg"
     },
     {
@@ -140,7 +125,6 @@ const jewelryArray = [
       price: 220,
       category: "Necklace",
       brand: "GoldEssence",
-      availability: "Out of Stock",
       img:"img/goldchain.jpg"
     },
     {
@@ -149,7 +133,6 @@ const jewelryArray = [
       price: 30,
       category: "Ring",
       brand: "SilverLuxe",
-      availability: "In Stock",
       img:"img/silverring.jpg"
     },
     {
@@ -158,7 +141,6 @@ const jewelryArray = [
       price: 550,
       category: "Ring",
       brand: "GemStone",
-      availability: "In Stock",
       img:"img/amethystring.jpg"
     },
     {
@@ -167,7 +149,6 @@ const jewelryArray = [
       price: 800,
       category: "Necklace",
       brand: "PearlGrace",
-      availability: "In Stock",
       img:"img/silverpearl.jpg"
     },
     {
@@ -176,7 +157,6 @@ const jewelryArray = [
       price: 60,
       category: "Bracelet",
       brand: "SteelCharm",
-      availability: "Out of Stock",
       img:"img/charmbracelet.jpg"
     }
   ];
