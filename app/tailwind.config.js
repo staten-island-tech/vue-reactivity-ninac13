@@ -2,17 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        shrikhand: ["Shrikhand", "serif"]
+      }
+    },
   },
-  plugins: [],
-}
-
-module.exports = {
-  //...
-  plugins: [
-    require('daisyui'),
-  ],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["valentine"], // Ensure themes are recognized
+  },
 }

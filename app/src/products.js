@@ -13,7 +13,7 @@ const jewelryArray = [
       price: 1200,
       category: "Ring",
       brand: "Sparkle",
-      img: "img/diamonring.jpg"
+      img: "img/diamondring.jpg"
     },
     {
       name: "Silver Bracelet",
