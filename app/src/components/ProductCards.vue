@@ -10,15 +10,16 @@ defineProps({
 </script>
 
 <template>
-    <div class="card w-1/3 pb-50 pt-12 h-auto border-4 border-base-100 rounded-lg border-double mx-5 my-5 min-w-64 shadow-md bg-base-300">
-        <h2>{{ category }}</h2>
-        <h1>{{ name }}</h1>
-        <h2>Brand: {{ brand }}</h2>
+    <div class="card w-2/5 pb-50 pt-12 h-auto border-4 border-secondary rounded-lg border-double mx-5 my-5 min-w-64 shadow-md bg-base-300">
+        <h2 class="text-center">{{ category }}</h2>
+        <h1 class="text-center">{{ name }}</h1>
+        <h2 class="text-center">Brand: {{ brand }}</h2>
         <img :src="img" class="rounded-lg border-double border-4 border-base-300 w-full h-96 object-cover"/> 
-        <h2>${{ price }}</h2>
-        <h2>Material(s): {{ material }}</h2>
-        <button>Add to Cart</button>
+        <h2 class="text-center">${{ price }}</h2>
+        <h2 class="text-center">Material(s): {{ material }}</h2>
+        <button class="border-4 rounded-lg border-base-100 bg-neutral-content">Add to Cart</button>
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>
