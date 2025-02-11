@@ -17,7 +17,7 @@ defineProps({
         <img :src="img" class="rounded-lg border-double border-4 border-base-300 w-full h-96 object-cover"/> 
         <h2 class="text-center">${{ price }}</h2>
         <h2 class="text-center">Material(s): {{ material }}</h2>
-        <button class="border-4 rounded-lg border-base-100 bg-neutral-content">Add to Cart</button>
+        <slot></slot>
     </div>
 </template>
 
