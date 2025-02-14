@@ -14,7 +14,7 @@ defineProps({
         <h2 class="text-center">{{ category }}</h2>
         <h1 class="text-center text-2xl text-neutral">{{ name }}</h1>
         <h2 class="text-center">Brand: {{ brand }}</h2>
-        <img :src="img" class="rounded-lg border-double border-4 border-base-300 w-full h-96 object-cover"/> 
+        <img :src="img" class="rounded-lg border-double border-4 border-base-300 w-5/6 h-96 object-cover"/> 
         <h2 class="text-center">${{ price }}</h2>
         <h2 class="text-center pb-2">Material(s): {{ material }}</h2>
         <slot></slot>
