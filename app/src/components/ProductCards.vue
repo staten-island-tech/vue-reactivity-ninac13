@@ -12,10 +12,10 @@ defineProps({
 <template>
     <div class="card w-2/5 pb-50 pt-6 h-auto border-4 border-secondary rounded-lg border-double mx-5 my-5 min-w-64 shadow-md bg-base-100">
         <h2 class="text-center">{{ category }}</h2>
-        <h1 class="text-center text-2xl text-neutral">{{ name }}</h1>
-        <h2 class="text-center">Brand: {{ brand }}</h2>
-        <img :src="img" class="rounded-lg border-double border-4 border-base-300 w-5/6 h-96 object-cover"/> 
-        <h2 class="text-center">${{ price }}</h2>
+        <h1 class="text-center text-2xl text-neutral my-1">{{ name }}</h1>
+        <h2 class="text-center mb-2">Brand: {{ brand }}</h2>
+        <img :src="img" class="rounded-2xl border-8 border-base-100 h-96 object-cover"/> 
+        <h2 class="text-center mt-3">${{ price }}</h2>
         <h2 class="text-center pb-2">Material(s): {{ material }}</h2>
         <slot></slot>
     </div>

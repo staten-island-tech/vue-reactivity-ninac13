@@ -22,7 +22,7 @@ const cart = ref([]);
           :material="jewelry.material"
         ><button @click="console.log(jewelry.name)" class="border-base-100 pt-2 pb-1 bg-neutral-content hover:bg-base-100 hover:text-neutral hover:text-xl duration-500 border-8 rounded-2xl">Add to Cart</button></Products>
       </div>
-      <div class="fixed col-span-1 h-5/6 mr-32 border-8 bg-base-100 border-double border-neutral justify-self-end px-40 rounded-lg">
+      <div class="fixed col-span-1 h-5/6 w-1/4 border-8 bg-base-100 border-double border-neutral justify-self-end mr-16 rounded-lg">
         <h1 class="text-2xl pt-5 text-center">Jewelry Cart</h1>
 
       </div>
