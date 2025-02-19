@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="card w-2/5 pb-50 pt-6 h-auto border-4 border-secondary rounded-lg border-double mx-5 my-5 min-w-64 shadow-md bg-base-100">
+    <div class="card w-2/5 pb-50 pt-6 h-auto border-secondary hover:border-4 rounded-lg my-5 min-w-64 shadow-md bg-base-100">
         <h2 class="text-center">{{ category }}</h2>
         <h1 class="text-center text-2xl text-neutral my-1">{{ name }}</h1>
         <h2 class="text-center mb-2">Brand: {{ brand }}</h2>
