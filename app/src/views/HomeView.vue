@@ -6,6 +6,11 @@ import { ref } from 'vue';
 const jewelryProducts = ref(jewelryArray);
 const cart = ref([]);
 const totalAmount = ref(0);
+
+function SubtractAmount(cart, item){
+  totalAmount-=item.price*(cart.filter(cartItem => cartItem === item).length);
+  cart=cart.filter(cartItem => cartItem!==item);
+}
 </script>
 
 <template>
@@ -36,10 +41,11 @@ const totalAmount = ref(0);
               :name="item.name"
               :img="item.img"
               :price="item.price"
-            ><button @click="totalAmount-=item.price*(cart.filter(cartItem => cartItem === item).length); cart=cart.filter(cartItem => cartItem!==item);" class="mb-5 pt-2 pb-1 bg-base-100 hover:bg-neutral-content hover:text-neutral hover:text-base duration-500 rounded-2xl w-1/2 text-sm">Remove {{ item.name }}</button></Cart>
+            ><button @click="SubtractAmount(cart, item)" class="mb-5 pt-2 pb-1 bg-base-100 hover:bg-neutral-content hover:text-neutral hover:text-base duration-500 rounded-2xl w-1/2 text-sm">Remove {{ item.name }}</button></Cart>
           </div>
       </div>
       </div>
     </div>
   </main>
 </template>
+
