@@ -8,8 +8,10 @@ const cart = ref([]);
 const totalAmount = ref(0);
 
 function SubtractAmount(cart, item){
-  totalAmount-=item.price*(cart.filter(cartItem => cartItem === item).length);
+  const num=(cart.filter(cartItem => cartItem === item).length);
+  totalAmount.value-=item.price*num;
   cart=cart.filter(cartItem => cartItem!==item);
+  console.log(cart);
 }
 </script>
 
@@ -41,7 +43,9 @@ function SubtractAmount(cart, item){
               :name="item.name"
               :img="item.img"
               :price="item.price"
-            ><button @click="SubtractAmount(cart, item)" class="mb-5 pt-2 pb-1 bg-base-100 hover:bg-neutral-content hover:text-neutral hover:text-base duration-500 rounded-2xl w-1/2 text-sm">Remove {{ item.name }}</button></Cart>
+            ><button @click="SubtractAmount(cart, item)" class="mb-5 pt-2 pb-1 bg-base-100 hover:bg-neutral-content hover:text-neutral hover:text-base duration-500 rounded-2xl w-1/2 text-sm">Remove {{ item.name }}</button>
+              
+          </Cart>
           </div>
       </div>
       </div>
